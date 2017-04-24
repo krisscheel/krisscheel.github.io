@@ -1,0 +1,37 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	background-color: white;
+	padding: 20px;
+}
+
+nav a {
+	color: rgb(186,009,062);
+	font-style: italic;
+	margin-right: 10px;
+}
+
+img {
+	width: 100%;
+}
+
+section {
+	padding: 20px;
+}
+
+body {
+	background-color: rgb(255,233,241);
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+}
+
+h1 {
+	color: rgb(186,009,062);
+}
+
+#slogan {
+	font-style: italic;
+}
