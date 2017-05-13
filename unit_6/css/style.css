@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script');
+@import url('https://fonts.googleapis.com/css?family=Junge');
+
+*{
+	padding: 0;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #f4d9f1;
+	border: 1px black solid;
+	padding: 20px;
+	text-align: center;
+	margin: 100px;
+}
+
+nav {
+	background-color: #F7edf4;
+	border: 1px black solid;
+	color: rgb(186,009,062);
+	font-style: italic;
+	margin-right: 2em;
+	margin-left: 2em;
+	padding: 40px;
+	text-align: center;
+}
+
+a {
+	padding: 20px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+a:hover {
+	background-color: #aaaaaa;
+}
+
+img {
+	width: 100%;
+}
+
+.column {
+	float: left;
+	width: 32%;
+	height: 400px;
+	padding: 20;
+	margin: 0;
+}
+
+#column1 {
+	background-color: #d8bed5;
+	padding: 20px;
+}
+
+#column2 {
+	background-color: #bec7d8;
+	padding: 20px;
+}
+
+#column3 {
+	background-color: #d8bece;
+	padding: 20px;
+}
+
+#about {
+	margin: 20px;
+	text-align: left;
+	padding: 20px;
+}
+
+#services {
+	background-color: #F7edf4;
+	text-align: center;
+	margin: auto;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #aa4b8f;
+	border: 1px black solid;
+	padding: 20px;
+	margin: auto;
+}
+
+body {
+	font-family: 'Junge', serif;
+	font-size: 20px;
+	line-height: 1.5em;
+	color: 3b373d;
+}
+
+h1 {
+	color: #3b373d;
+	font-family: 'Oleo Script', cursive;
+	font-size: 4em;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: 'Oleo Script', cursive;
+	margin-bottom: 1em;
+	color: #3b373d;
+}
+
+ul{
+	list-style: none;
+}
