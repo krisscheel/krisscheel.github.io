@@ -1,0 +1,200 @@
+
+@import url('https://fonts.googleapis.com/css?family=Arimo|Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 20px;
+	background-color: #bdbdbd;
+}
+
+#kristen {
+ background-color: red;
+ text-align: left;
+ width: 100%;
+ height: 700px;
+}
+
+#kristen h1 {
+	color: white;
+	font-size: 5em;
+	padding-bottom:20%;
+}
+
+nav {
+	text-align: right;
+	font-size: 2em;
+}
+
+nav a:visited{
+	color: white;
+}
+
+nav a:link {
+	font-family: 'Yanone Kaffeesatz';
+	color: white;
+	padding: 1%;
+	text-align: right;
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: black;
+}
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+#about {
+	background:url(../images/blacksmudge.jpg) no-repeat center center scroll;
+ 	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 1%;
+	text-align: left;
+	color: white;
+}
+
+.column {
+	float: left;
+	width: 33.3333%;
+	padding: 1%;
+	margin: 0;
+}
+
+.column h2 {
+	color: black;
+}
+
+#column1 {
+	background-color: white;
+	padding: 1%;
+}
+
+#column2 {
+	background-color: white;
+	padding: 1%;
+}
+
+#column3 {
+	background-color: white;
+	padding: 1%;
+}
+
+#services {
+	width: 40%;
+	background-color: #bdbdbd;
+	text-align: left;
+	margin: 0;
+	padding: 1%
+}
+
+#services h2 {
+	color: black;
+}
+
+#toggle {
+	display: none;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	border: 2px black solid;
+	padding: 1%;
+	margin: auto;
+	text-align: center;
+}
+
+h1 {
+	color: white;
+	text-align: left;
+	font-family: 'Pacifico', cursive;
+	font-size: 5em;
+	margin-bottom: 1%;
+	margin-top: 1%;
+}
+
+h2 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 3em;
+	margin-bottom: .5%;
+	color: white;
+	line-height: 1em;
+}
+
+ul{
+	list-style: none;
+}
+
+label {
+	font-family: 'Yanone Kaffeesatz';
+	color: white;
+	padding: 1%;
+	text-align: right;
+	display: inline-block;
+	text-decoration: none;
+	display: none;
+}
+
+@media only screen and (max-width: 1195px) {
+	
+	.column {
+		float: none;
+		width: auto;
+		height:auto;
+	}
+	
+}
+
+@media only screen and (max-width: 500px){
+	
+	nav{
+		display: none;
+	}
+
+	nav a:link{
+		display: block;
+		padding:15px;
+		margin:5px;
+	}
+
+	h1{
+		margin:40px 0 0;
+	}
+
+	header{
+		padding:0 2%;
+	}
+
+	label{
+		display: block;
+	}
+
+	#toggle:checked + nav{
+		display: block;
+	}
+
+}
+
+	h1 {
+		font-size: 2em;
+	}
+}

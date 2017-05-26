@@ -10,25 +10,25 @@
 
 header {
 	background-color: #f4d9f1;
-	border: 1px black solid;
-	padding: 20px;
+	border: 1em black solid;
+	padding: 2em;
 	text-align: center;
-	margin: 100px;
+	margin: 10em;
 }
 
 nav {
 	background-color: #F7edf4;
-	border: 1px black solid;
+	border: 1em black solid;
 	color: rgb(186,009,062);
 	font-style: italic;
 	margin-right: 2em;
 	margin-left: 2em;
-	padding: 40px;
+	padding: 2em;
 	text-align: center;
 }
 
 a {
-	padding: 20px;
+	padding: 2em;
 	display: inline-block;
 	text-decoration: none;
 }
@@ -118,4 +118,10 @@ h2 {
 
 ul{
 	list-style: none;
+}
+
+@media only screen and (max-width: 768px) {
+.column {
+	float: none;
+	width: auto;
 }
